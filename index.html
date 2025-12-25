@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Business Website</title>
+    <link rel="stylesheet" href="Style.CSS">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Header -->
+    <header class="bg-rose-600 text-white shadow-lg sticky top-0 z-50 transition-all duration-300">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <a href="#" class="text-2xl font-bold hover:text-rose-200 transition">Business Name</a>
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-6">
+                        <li><a href="#" class="hover:text-rose-200 transition font-medium py-2 px-3 rounded hover:bg-rose-700/20">Home</a></li>
+                        <li><a href="#services" class="hover:text-rose-200 transition font-medium py-2 px-3 rounded hover:bg-rose-700/20">Services</a></li>
+                        <li><a href="https://wa.me/" class="hover:text-rose-200 transition font-medium py-2 px-3 rounded hover:bg-rose-700/20">Chat Now</a></li>
+</ul>
+                </nav>
+                <button class="md:hidden" aria-label="menu">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+        <mobile-menu></mobile-menu>
+    </header>
+<!-- Hero Section -->
+    <section class="bg-gradient-to-r from-rose-500 to-rose-600 text-white py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Let's Chat on WhatsApp!</h1>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Get instant answers to your questions through our WhatsApp Business service.</p>
+            <a href="https://wa.me/" class="bg-white text-rose-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300 inline-flex items-center">
+                <i data-feather="message-circle" class="mr-2"></i> Chat Now
+            </a>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-white">
+<div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-rose-50 rounded-lg p-6 shadow-md hover:shadow-lg transition">
+                    <div class="text-rose-600 mb-4">
+                        <i data-feather="shopping-bag" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Product Sales</h3>
+                    <p class="text-gray-600">Browse and purchase our products directly through WhatsApp.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-rose-50 rounded-lg p-6 shadow-md hover:shadow-lg transition">
+                    <div class="text-rose-600 mb-4">
+                        <i data-feather="headphones" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Customer Support</h3>
+                    <p class="text-gray-600">24/7 customer service available through WhatsApp messaging.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="bg-rose-50 rounded-lg p-6 shadow-md hover:shadow-lg transition">
+                    <div class="text-rose-600 mb-4">
+                        <i data-feather="calendar" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Appointments</h3>
+                    <p class="text-gray-600">Schedule appointments directly via WhatsApp for your convenience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp CTA -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-lg p-8">
+                <div class="text-rose-600 mb-6">
+                    <i data-feather="message-circle" class="w-16 h-16 mx-auto"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Chat With Us Instantly</h2>
+                <p class="text-gray-600 mb-8">Our team is ready to assist you via WhatsApp. Click below to start your conversation.</p>
+                <a href="https://wa.me/" class="bg-rose-600 hover:bg-rose-700 text-white font-bold py-4 px-12 rounded-full shadow-lg transition duration-300 inline-flex items-center">
+                    <i data-feather="message-circle" class="mr-2"></i> Open WhatsApp Chat
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p class="text-sm">© 2025 Business Name. All rights reserved.</p>
+</div>
+                <div class="text-center md:text-right">
+                    <p class="text-sm">Websites by WhatsApp Business Websites</p>
+                    <p class="text-xs text-gray-400 mt-1">Custom version available</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
